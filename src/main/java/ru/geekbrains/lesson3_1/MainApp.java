@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class MainApp {
 
     public static void main(String[] args) {
-        //№1
+        //№ 1
         String[] str = new String[10];
         for (int i = 0; i < str.length; i++) {
             str[i] = ""+i;
@@ -25,12 +25,12 @@ public class MainApp {
 
         System.out.println("№1\n"+Arrays.toString(str)+"\n"+Arrays.toString(numbers));
 
-        //№2
+        //№ 2
         ArrayList arrayList1 = toArrayList(str),
             arrayList2 = toArrayList(numbers);
         System.out.println("№2\n"+arrayList1+"\n"+arrayList2);
 
-        //№3
+        //№ 3
         Box box1 = new Box();
         Box box2 = new Box();
         Apple[] apples = new Apple[15];

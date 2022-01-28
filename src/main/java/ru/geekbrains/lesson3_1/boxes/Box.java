@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Box<T extends Fruit> {
     private ArrayList<T> arrayList = new ArrayList<>();
     private float weight;
-
+//
     public void put(T... t) {
         if (weight>0 && this.arrayList.get(0).getClass() != t[0].getClass()) {
             return;
